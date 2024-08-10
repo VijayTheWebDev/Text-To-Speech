@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1269%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3ccircle r='60.919880787465026' cx='1053.81' cy='543.1' stroke='%23037b0b' stroke-width='2.59' stroke-dasharray='2%2c 2'%3e%3c/circle%3e%3ccircle r='46.666666666666664' cx='1382.58' cy='461.49' fill='%23d3b714'%3e%3c/circle%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath1270%26quot%3b)' x='1395.37' y='385.87' fill='url(%26quot%3b%23SvgjsPattern1271%26quot%3b)' transform='rotate(241.16%2c 1425.37%2c 415.87)'%3e%3c/rect%3e%3cpath d='M785.76 517.63a5.6 5.6 0 1 0 3.76 10.56 5.6 5.6 0 1 0-3.76-10.56zM791.12 532.71a5.6 5.6 0 1 0 3.76 10.55 5.6 5.6 0 1 0-3.76-10.55zM796.48 547.79a5.6 5.6 0 1 0 3.75 10.55 5.6 5.6 0 1 0-3.75-10.55zM801.84 562.86a5.6 5.6 0 1 0 3.75 10.55 5.6 5.6 0 1 0-3.75-10.55zM759.97 492.84a5.6 5.6 0 1 0 3.75 10.55 5.6 5.6 0 1 0-3.75-10.55zM765.33 507.92a5.6 5.6 0 1 0 3.75 10.55 5.6 5.6 0 1 0-3.75-10.55zM770.69 522.99a5.6 5.6 0 1 0 3.75 10.56 5.6 5.6 0 1 0-3.75-10.56zM776.05 538.07a5.6 5.6 0 1 0 3.75 10.55 5.6 5.6 0 1 0-3.75-10.55z' fill='%23037b0b'%3e%3c/path%3e%3ccircle r='50.9864668499362' cx='1001.88' cy='223.42' fill='%23e73635'%3e%3c/circle%3e%3cpath d='M486.75 315.07a5.6 5.6 0 1 0-7.93-7.91 5.6 5.6 0 1 0 7.93 7.91zM475.42 303.77a5.6 5.6 0 1 0-7.94-7.9 5.6 5.6 0 1 0 7.94 7.9zM464.09 292.48a5.6 5.6 0 1 0-7.94-7.91 5.6 5.6 0 1 0 7.94 7.91zM452.75 281.18a5.6 5.6 0 1 0-7.93-7.91 5.6 5.6 0 1 0 7.93 7.91z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M97.65 152.25a5.6 5.6 0 1 0 3.01 10.79 5.6 5.6 0 1 0-3.01-10.79zM101.95 167.66a5.6 5.6 0 1 0 3 10.79 5.6 5.6 0 1 0-3-10.79zM106.24 183.07a5.6 5.6 0 1 0 3.01 10.79 5.6 5.6 0 1 0-3.01-10.79zM110.54 198.49a5.6 5.6 0 1 0 3 10.79 5.6 5.6 0 1 0-3-10.79zM73.65 125.72a5.6 5.6 0 1 0 3.01 10.79 5.6 5.6 0 1 0-3.01-10.79zM77.95 141.13a5.6 5.6 0 1 0 3 10.79 5.6 5.6 0 1 0-3-10.79zM82.24 156.54a5.6 5.6 0 1 0 3.01 10.79 5.6 5.6 0 1 0-3.01-10.79zM86.54 171.96a5.6 5.6 0 1 0 3 10.78 5.6 5.6 0 1 0-3-10.78z' stroke='%23037b0b' stroke-width='1' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3crect width='168' height='168' clip-path='url(%26quot%3b%23SvgjsClipPath1272%26quot%3b)' x='1284.13' y='23.97' fill='url(%26quot%3b%23SvgjsPattern1273%26quot%3b)' transform='rotate(33.83%2c 1368.13%2c 107.97)'%3e%3c/rect%3e%3crect width='135.8' height='135.8' clip-path='url(%26quot%3b%23SvgjsClipPath1274%26quot%3b)' x='783.41' y='-55.7' fill='url(%26quot%3b%23SvgjsPattern1275%26quot%3b)' transform='rotate(256.21%2c 851.31%2c 12.2)'%3e%3c/rect%3e%3crect width='356.12' height='356.12' clip-path='url(%26quot%3b%23SvgjsClipPath1276%26quot%3b)' x='200.76' y='148.09' fill='url(%26quot%3b%23SvgjsPattern1277%26quot%3b)' transform='rotate(327.53%2c 378.82%2c 326.15)'%3e%3c/rect%3e%3crect width='360' height='360' clip-path='url(%26quot%3b%23SvgjsClipPath1278%26quot%3b)' x='779.83' y='221.3' fill='url(%26quot%3b%23SvgjsPattern1279%26quot%3b)' transform='rotate(224.25%2c 959.83%2c 401.3)'%3e%3c/rect%3e%3cpath d='M268.69 31.53L278.18 40.12 271.87 51.27 281.36 59.87 275.06 71.01 284.55 79.61 278.25 90.76M260.79 32.8L270.28 41.4 263.97 52.54 273.47 61.14 267.16 72.29 276.65 80.89 270.35 92.03M252.89 34.08L262.38 42.67 256.08 53.82 265.57 62.42 259.26 73.56 268.76 82.16 262.45 93.31' stroke='%23e73635' stroke-width='2.87' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1269'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1271'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1270'%3e%3ccircle r='15' cx='1425.37' cy='415.87'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1273'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1272'%3e%3ccircle r='42' cx='1368.13' cy='107.97'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='13.58' height='13.58' patternUnits='userSpaceOnUse' id='SvgjsPattern1275'%3e%3cpath d='M6.79 1L6.79 12.58M1 6.79L12.58 6.79' stroke='%23d3b714' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1274'%3e%3ccircle r='33.95' cx='851.31' cy='12.2'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='356.12' height='6.14' patternUnits='userSpaceOnUse' id='SvgjsPattern1277'%3e%3crect width='356.12' height='3.07' x='0' y='0' fill='%23037b0b'%3e%3c/rect%3e%3crect width='356.12' height='3.07' x='0' y='3.07' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1276'%3e%3ccircle r='89.03' cx='378.82' cy='326.15'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='360' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1279'%3e%3crect width='360' height='3' x='0' y='0' fill='%23037b0b'%3e%3c/rect%3e%3crect width='360' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1278'%3e%3ccircle r='90' cx='959.83' cy='401.3'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+
+}
+
+
+h1
+{
+    font-size: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 4px 5px 11px black;
+    margin-bottom: 20px;
+}
+textarea 
+{
+    margin: 50px 0;
+    height: 300px;
+    width: 600px;
+    border: 0;
+    outline: 0;
+    box-shadow:5px 6px 10px black ;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+textarea::placeholder
+{
+   padding: 20px;
+   color: blueviolet;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+button
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    cursor: pointer;
+    border: 0;
+    width: 180px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}

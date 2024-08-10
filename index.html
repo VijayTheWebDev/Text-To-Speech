@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to speech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Text To Speech</h1>
+        <textarea  id="text" placeholder="Enter Your Text here.... "></textarea>
+        
+        <button id="speakBtn" >Text To Speak</button>
+
+    </div>
+
+    <script>
+
+document.getElementById('speakBtn').addEventListener('click', function() {
+
+    let text = document.getElementById('text').value;
+    let speech = new SpeechSynthesisUtterance();
+
+    speech.text = text;
+    speech.lang = 'en-US';
+    speech.rate=1;
+    speech.volume=100;
+    speech.pitch=2;
+
+    window.speechSynthesis.speak(speech);
+        })
+    </script>
+</body>
+</html>
